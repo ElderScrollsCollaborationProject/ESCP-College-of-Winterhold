@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.ESCP.CollegeOfWinterhold</packageId>
+    <author>Rick</author>
+    <name>ESCP - College of Winterhold</name>
+    <description>The Elder Scrolls Collaboration Project Presents: The College of Winterhold. Skyrim's only institution for the study of magic, perched on a cliff above the Sea of Ghosts and largely uninterested in the wars being fought below it. The College accepts anyone with the aptitude and the patience for its curriculum. It maintains formal neutrality in most political matters, a neutrality that, in practice, leaves it most accessible to those who do not particularly mind cold weather or long silences.</description>
+    <url>https://github.com/ElderScrollsCollaborationProject</url>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.ESCP.Core.Tools</packageId>
+            <displayName>ESCP - Tools</displayName>
+            <downloadUrl>https://github.com/ElderScrollsCollaborationProject</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.ESCP.MagesGuild</packageId>
+            <displayName>ESCP - Mages Guild</displayName>
+            <downloadUrl>https://github.com/ElderScrollsCollaborationProject</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.ESCP.Core.Tools</li>
+        <li>Rick.ESCP.MagesGuild</li>
+        <li>Rick.ESCP.Nords</li>
+    </loadAfter>
+
+</ModMetaData>

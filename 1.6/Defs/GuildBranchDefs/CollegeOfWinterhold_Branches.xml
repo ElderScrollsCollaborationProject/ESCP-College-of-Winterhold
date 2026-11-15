@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Guilds.GuildBranchDef>
+        <defName>ESCP_GuildBranch_CollegeOfWinterhold</defName>
+        <guild>CollegeOfWinterhold</guild>
+        <guildFactionDef>ESCP_Faction_CollegeOfWinterhold</guildFactionDef>
+        <guildActionLabel>Request College of Winterhold commission</guildActionLabel>
+        <hostFactionDefs>
+            <li MayRequire="Rick.ESCP.Nords">ESCP_Faction_Stormcloaks</li>
+            <li MayRequire="Rick.ESCP.Nords">ESCP_Faction_Kingdom_of_Skyrim</li>
+        </hostFactionDefs>
+    </ESCP.Guilds.GuildBranchDef>
+
+</Defs>

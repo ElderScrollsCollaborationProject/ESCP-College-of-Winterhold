@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_CollegeOfWinterhold</defName>
+        <label>College of Winterhold</label>
+        <description>The College of Winterhold sits at the edge of a cliff above the Sea of Ghosts, most of the town long since fallen into the water below. The College did not fall. The locals have not forgiven this and the College has not apologized for it. It is Skyrim's only institution for formal arcane study and takes in anyone with sufficient aptitude, regardless of background or allegiance. The Arch-Mage answers to no throne. In practice the College works closely with Stormcloak holdings, though you will not find that written anywhere.</description>
+        <colorSpectrum>
+            <li>(0.20, 0.45, 0.72)</li>
+        </colorSpectrum>
+        <pawnSingular>College mage</pawnSingular>
+        <pawnsPlural>College mages</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <hidden>true</hidden>
+        <settlementGenerationWeight>0</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <displayInFactionSelection>false</displayInFactionSelection>
+        <canSiege>false</canSiege>
+        <canStageAttacks>false</canStageAttacks>
+        <leaderTitle>Arch-Mage</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>College of Winterhold</fixedName>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_MagesGuild_Child</li>
+                    <li>ESCP_Backstory_MagesGuild_Scholar</li>
+                </categories>
+                <commonality>0.8</commonality>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_MagesGuild_Arcanist</li>
+        </caravanTraderKinds>
+
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_MagesGuild_Arcanist</li>
+        </visitorTraderKinds>
+
+        <pawnGroupMakers>
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <ESCP_Pawnkind_MagesGuild_Apprentice>3</ESCP_Pawnkind_MagesGuild_Apprentice>
+                    <ESCP_Pawnkind_MagesGuild_Wizard>2</ESCP_Pawnkind_MagesGuild_Wizard>
+                    <ESCP_Pawnkind_MagesGuild_Warlock>1</ESCP_Pawnkind_MagesGuild_Warlock>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <commonality>40</commonality>
+                <options>
+                    <ESCP_Pawnkind_MagesGuild_Apprentice>2</ESCP_Pawnkind_MagesGuild_Apprentice>
+                    <ESCP_Pawnkind_MagesGuild_Wizard>1</ESCP_Pawnkind_MagesGuild_Wizard>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Trader</kindDef>
+                <commonality>60</commonality>
+                <options>
+                    <ESCP_Pawnkind_MagesGuild_Apprentice>1</ESCP_Pawnkind_MagesGuild_Apprentice>
+                </options>
+                <traders>
+                    <ESCP_Pawnkind_MagesGuild_Arcanist>1</ESCP_Pawnkind_MagesGuild_Arcanist>
+                </traders>
+                <carriers>
+                    <Muffalo>4</Muffalo>
+                    <Dromedary>2</Dromedary>
+                </carriers>
+            </li>
+
+        </pawnGroupMakers>
+
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <raidLootValueFromPointsCurve>
+            <points>
+                <li>(0, 0)</li>
+                <li>(100, 20)</li>
+                <li>(1000, 75)</li>
+                <li>(3000, 100)</li>
+            </points>
+        </raidLootValueFromPointsCurve>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+
+    </FactionDef>
+
+</Defs>

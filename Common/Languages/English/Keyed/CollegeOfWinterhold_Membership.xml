@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_CollegeOfWinterhold_Enlist_Letter_Title>Joined the College of Winterhold</ESCP_CollegeOfWinterhold_Enlist_Letter_Title>
+    <ESCP_CollegeOfWinterhold_Enlist_Letter_Label>Your colony now stands with the College of Winterhold. Open the guild ledger at any settlement hosting them to draw pay, take work and see your standing.</ESCP_CollegeOfWinterhold_Enlist_Letter_Label>
+    <ESCP_CollegeOfWinterhold_Enlist_Button_Label>Join the College of Winterhold</ESCP_CollegeOfWinterhold_Enlist_Button_Label>
+    <ESCP_CollegeOfWinterhold_Enlist_Button_Desc>Seek admission to the College of Winterhold, Skyrim's last great seat of magical learning.</ESCP_CollegeOfWinterhold_Enlist_Button_Desc>
+    <ESCP_CollegeOfWinterhold_Enlist_Requrements_Not_Satisfied>The College of Winterhold does not trust you yet. Standing: {0}.</ESCP_CollegeOfWinterhold_Enlist_Requrements_Not_Satisfied>
+    <ESCP_CollegeOfWinterhold_Enlisted_To_Hostile_Faction>You cannot join the College of Winterhold while your colony is at odds with it.</ESCP_CollegeOfWinterhold_Enlisted_To_Hostile_Faction>
+    <ESCP_CollegeOfWinterhold_Enlisted_With_Key>Member of the College of Winterhold</ESCP_CollegeOfWinterhold_Enlisted_With_Key>
+    <ESCP_CollegeOfWinterhold_Missions_Label>Contracts</ESCP_CollegeOfWinterhold_Missions_Label>
+    <ESCP_CollegeOfWinterhold_Missions_Desc>See what work the guild has posted.</ESCP_CollegeOfWinterhold_Missions_Desc>
+    <ESCP_CollegeOfWinterhold_Menu_Missions_Desc>Open contracts posted by the College of Winterhold. Accepting one costs nothing; payment comes when it is done.</ESCP_CollegeOfWinterhold_Menu_Missions_Desc>
+    <ESCP_CollegeOfWinterhold_Menu_Missions_Select_Quest>Select contract</ESCP_CollegeOfWinterhold_Menu_Missions_Select_Quest>
+    <ESCP_CollegeOfWinterhold_Menu_Missions_Start_Quest>Accept</ESCP_CollegeOfWinterhold_Menu_Missions_Start_Quest>
+    <ESCP_CollegeOfWinterhold_Menu_Missions_Collect_Bounty>Collect</ESCP_CollegeOfWinterhold_Menu_Missions_Collect_Bounty>
+    <ESCP_CollegeOfWinterhold_Salary_Label>Draw stipend</ESCP_CollegeOfWinterhold_Salary_Label>
+    <ESCP_CollegeOfWinterhold_Salary_Desc>Collect your share from the guild's steward.</ESCP_CollegeOfWinterhold_Salary_Desc>
+    <ESCP_CollegeOfWinterhold_Provisions_Label>Draw supplies</ESCP_CollegeOfWinterhold_Provisions_Label>
+    <ESCP_CollegeOfWinterhold_Provisions_Desc>Take what the guild sets aside for its members on the road.</ESCP_CollegeOfWinterhold_Provisions_Desc>
+    <ESCP_CollegeOfWinterhold_Storage_Label>Guild lockbox</ESCP_CollegeOfWinterhold_Storage_Label>
+    <ESCP_CollegeOfWinterhold_Storage_Desc>Leave goods in the guild's keeping and collect them from any hall.</ESCP_CollegeOfWinterhold_Storage_Desc>
+    <ESCP_CollegeOfWinterhold_Resign_Menu_Text>Leave the College of Winterhold? Your standing will suffer for it.</ESCP_CollegeOfWinterhold_Resign_Menu_Text>
+    <ESCP_CollegeOfWinterhold_Resign_Letter_Title>Left the College of Winterhold</ESCP_CollegeOfWinterhold_Resign_Letter_Title>
+    <ESCP_CollegeOfWinterhold_Resign_Letter_Label>Your colony has left the College of Winterhold. Its doors are closed to you for now.</ESCP_CollegeOfWinterhold_Resign_Letter_Label>
+    <ESCP_CollegeOfWinterhold_Resign_Button_Label>Leave the guild</ESCP_CollegeOfWinterhold_Resign_Button_Label>
+    <ESCP_CollegeOfWinterhold_Resign_Button_Desc>Give up your membership and every rank that goes with it.</ESCP_CollegeOfWinterhold_Resign_Button_Desc>
+    <ESCP_CollegeOfWinterhold_Kick_Out_Letter_Title>Expelled from the College of Winterhold</ESCP_CollegeOfWinterhold_Kick_Out_Letter_Title>
+    <ESCP_CollegeOfWinterhold_Kick_Out_Label_Title>Relations have fallen too far. The College of Winterhold has struck your colony from its books.</ESCP_CollegeOfWinterhold_Kick_Out_Label_Title>
+    <ESCP_CollegeOfWinterhold_Work_0_Label>Catalog the Arcanaeum</ESCP_CollegeOfWinterhold_Work_0_Label>
+    <ESCP_CollegeOfWinterhold_Work_0_Desc>Help the archivist keep track of a library that resents being organized.</ESCP_CollegeOfWinterhold_Work_0_Desc>
+    <ESCP_CollegeOfWinterhold_Work_1_Label>Study at the Arcanaeum</ESCP_CollegeOfWinterhold_Work_1_Label>
+    <ESCP_CollegeOfWinterhold_Work_1_Desc>Read long into the cold nights.</ESCP_CollegeOfWinterhold_Work_1_Desc>
+
+</LanguageData>

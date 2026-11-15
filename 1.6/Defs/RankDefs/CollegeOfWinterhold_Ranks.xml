@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_CollegeOfWinterhold</defName>
+        <label>College of Winterhold ranks</label>
+        <iconPath>UI/Abilities/Skip</iconPath>
+        <guild>CollegeOfWinterhold</guild>
+        <rootTier>ESCP_Rank_CollegeOfWinterhold_Novice</rootTier>
+        <owningFaction>ESCP_Faction_CollegeOfWinterhold</owningFaction>
+        <collectiveNoun>the College</collectiveNoun>
+        <drillLabel>Arcane Exercises</drillLabel>
+        <drillDesc>Practice with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Debate Theory</studyLabel>
+        <studyDesc>Work through the guild's craft with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Examine Their Work</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to the Midden...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>Hold the Ward!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Assemble, Students</fallInLabel>
+        <fallInDesc>Order {0} to fall in behind you, up to four deep. They hold formation until released.</fallInDesc>
+        <dismissLabel>Class Dismissed</dismissLabel>
+        <dismissDesc>Release {0} from formation so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CollegeOfWinterhold_Novice</defName>
+        <label>novice</label>
+        <description>Newly admitted, cold most of the time, and still surprised to be here.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_CollegeOfWinterhold_Apprentice</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CollegeOfWinterhold_Apprentice</defName>
+        <label>apprentice</label>
+        <description>Attends the Hall of Attainment and has stopped setting fire to the bedding.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>5</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <minGuildReputation>10</minGuildReputation>
+        <trainingXpPerHour>
+            <Intellectual>400</Intellectual>
+            <Social>150</Social>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_CollegeOfWinterhold_Adept</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CollegeOfWinterhold_Adept</defName>
+        <label>adept</label>
+        <description>Works independently within one school of magic.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <minGuildReputation>25</minGuildReputation>
+        <trainingXpPerHour>
+            <Intellectual>500</Intellectual>
+            <Social>200</Social>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_CollegeOfWinterhold_Expert</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CollegeOfWinterhold_Expert</defName>
+        <label>expert</label>
+        <description>Consulted by the masters and feared slightly by the novices.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>11</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <minGuildReputation>50</minGuildReputation>
+        <trainingXpPerHour>
+            <Intellectual>600</Intellectual>
+            <Social>250</Social>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_CollegeOfWinterhold_Master</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CollegeOfWinterhold_Master</defName>
+        <label>master</label>
+        <description>Holds a chair at the College and sets the course of its teaching.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>14</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <minGuildReputation>75</minGuildReputation>
+        <trainingXpPerHour>
+            <Intellectual>700</Intellectual>
+            <Social>300</Social>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

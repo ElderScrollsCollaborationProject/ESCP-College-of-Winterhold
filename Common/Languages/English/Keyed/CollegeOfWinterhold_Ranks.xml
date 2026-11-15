@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_CollegeOfWinterhold>Tutor:</ESCP_Rank_Mentor_CollegeOfWinterhold>
+    <ESCP_Rank_NoMentor_CollegeOfWinterhold>No tutor</ESCP_Rank_NoMentor_CollegeOfWinterhold>
+    <ESCP_Rank_Promote_CollegeOfWinterhold>Advance</ESCP_Rank_Promote_CollegeOfWinterhold>
+    <ESCP_Rank_NextRank_CollegeOfWinterhold>Next rank</ESCP_Rank_NextRank_CollegeOfWinterhold>
+    <ESCP_Rank_ChoosePath_CollegeOfWinterhold>Choose a school</ESCP_Rank_ChoosePath_CollegeOfWinterhold>
+    <ESCP_Rank_DaysInRank_CollegeOfWinterhold>{0} days at this rank in the College</ESCP_Rank_DaysInRank_CollegeOfWinterhold>
+    <ESCP_Rank_Promoted_Title_CollegeOfWinterhold>Advanced to {0}</ESCP_Rank_Promoted_Title_CollegeOfWinterhold>
+    <ESCP_Rank_Promoted_Text_CollegeOfWinterhold>The Arch-Mage has recognized {0} as {1} of the College of Winterhold.</ESCP_Rank_Promoted_Text_CollegeOfWinterhold>
+    <ESCP_Rank_Demoted_Title_CollegeOfWinterhold>Censured: {0}</ESCP_Rank_Demoted_Title_CollegeOfWinterhold>
+    <ESCP_Rank_Demoted_Expedition_CollegeOfWinterhold>{0}'s field research ended badly, and the College has reduced them from {1} to {2}.</ESCP_Rank_Demoted_Expedition_CollegeOfWinterhold>
+    <ESCP_Rank_Demoted_KickedOut_CollegeOfWinterhold>The College no longer recognizes the colony. {0} is reduced from {1} to {2}.</ESCP_Rank_Demoted_KickedOut_CollegeOfWinterhold>
+    <ESCP_Rank_FormUp_Message_CollegeOfWinterhold>{0} assembles the students of {1}.</ESCP_Rank_FormUp_Message_CollegeOfWinterhold>
+    <ESCP_Rank_Dismiss_Message_CollegeOfWinterhold>{0} dismisses the class.</ESCP_Rank_Dismiss_Message_CollegeOfWinterhold>
+    <ESCP_Rank_Rally_Title_CollegeOfWinterhold>{0} calls for a ward</ESCP_Rank_Rally_Title_CollegeOfWinterhold>
+    <ESCP_Rank_Rally_Text_CollegeOfWinterhold>{0} shouts the first words of a ward, and every member of {1} on the field steadies their casting.</ESCP_Rank_Rally_Text_CollegeOfWinterhold>
+    <ESCP_Rank_DrillingComplete_CollegeOfWinterhold>{0} and {1} finished their arcane exercises.</ESCP_Rank_DrillingComplete_CollegeOfWinterhold>
+    <ESCP_Rank_StudyingComplete_CollegeOfWinterhold>{0} and {1} finished arguing over theory. Neither conceded.</ESCP_Rank_StudyingComplete_CollegeOfWinterhold>
+    <ESCP_Rank_InspectionComplete_Commended_CollegeOfWinterhold>{0} examines {1}'s work and pronounces it sound.</ESCP_Rank_InspectionComplete_Commended_CollegeOfWinterhold>
+    <ESCP_Rank_InspectionComplete_Reprimanded_CollegeOfWinterhold>{0} examines {1}'s work and is not impressed.</ESCP_Rank_InspectionComplete_Reprimanded_CollegeOfWinterhold>
+    <ESCP_Rank_InspectionComplete_Passed_CollegeOfWinterhold>{0} examines {1}'s work. Adequate.</ESCP_Rank_InspectionComplete_Passed_CollegeOfWinterhold>
+    <ESCP_Rank_InspectionComplete_NoGear_CollegeOfWinterhold>{0} asks {1} for their work, but there is nothing to examine.</ESCP_Rank_InspectionComplete_NoGear_CollegeOfWinterhold>
+    <ESCP_Rank_PunishmentAssigned_CollegeOfWinterhold>{0} sends {1} to clean out the Midden.</ESCP_Rank_PunishmentAssigned_CollegeOfWinterhold>
+    <ESCP_Rank_MentorDown_Message_CollegeOfWinterhold>{1} has fallen! {0} remembers every lesson at once.</ESCP_Rank_MentorDown_Message_CollegeOfWinterhold>
+    <ESCP_Rank_Suspended_Title_CollegeOfWinterhold>Membership lapsed</ESCP_Rank_Suspended_Title_CollegeOfWinterhold>
+    <ESCP_Rank_History_Enrolled_CollegeOfWinterhold>Admitted to the College as {0}.</ESCP_Rank_History_Enrolled_CollegeOfWinterhold>
+    <ESCP_Rank_History_FormedUp_CollegeOfWinterhold>Assembled the students of {0}.</ESCP_Rank_History_FormedUp_CollegeOfWinterhold>
+    <ESCP_Rank_History_Inspected_CollegeOfWinterhold>Examined {0}'s work.</ESCP_Rank_History_Inspected_CollegeOfWinterhold>
+    <ESCP_Rank_History_Rallied_CollegeOfWinterhold>Called a ward for {0}.</ESCP_Rank_History_Rallied_CollegeOfWinterhold>
+    <ESCP_Rank_History_Punished_CollegeOfWinterhold>Sent {0} to the Midden.</ESCP_Rank_History_Punished_CollegeOfWinterhold>
+    <ESCP_Rank_History_MentorDown_CollegeOfWinterhold>Tutor {0} was struck down.</ESCP_Rank_History_MentorDown_CollegeOfWinterhold>
+    <ESCP_Rank_History_MentorDied_CollegeOfWinterhold>Tutor {0} has died.</ESCP_Rank_History_MentorDied_CollegeOfWinterhold>
+
+</LanguageData>
