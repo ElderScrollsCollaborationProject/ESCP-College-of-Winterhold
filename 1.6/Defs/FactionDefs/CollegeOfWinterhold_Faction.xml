@@ -27,8 +27,8 @@
         <backstoryFilters>
             <li>
                 <categories>
-                    <li>ESCP_Backstory_MagesGuild_Child</li>
-                    <li>ESCP_Backstory_MagesGuild_Scholar</li>
+                    <li>ESCP_Backstory_College_Child</li>
+                    <li>ESCP_Backstory_College_Mage</li>
                 </categories>
                 <commonality>0.8</commonality>
             </li>
@@ -48,9 +48,10 @@
                 <kindDef>Settlement</kindDef>
                 <commonality>100</commonality>
                 <options>
-                    <ESCP_Pawnkind_MagesGuild_Apprentice>3</ESCP_Pawnkind_MagesGuild_Apprentice>
-                    <ESCP_Pawnkind_MagesGuild_Wizard>2</ESCP_Pawnkind_MagesGuild_Wizard>
-                    <ESCP_Pawnkind_MagesGuild_Warlock>1</ESCP_Pawnkind_MagesGuild_Warlock>
+                    <ESCP_Pawnkind_College_Apprentice>3</ESCP_Pawnkind_College_Apprentice>
+                    <ESCP_Pawnkind_College_Adept>2</ESCP_Pawnkind_College_Adept>
+                    <ESCP_Pawnkind_College_Expert>2</ESCP_Pawnkind_College_Expert>
+                    <ESCP_Pawnkind_College_MasterWizard>1</ESCP_Pawnkind_College_MasterWizard>
                 </options>
             </li>
 
@@ -58,8 +59,8 @@
                 <kindDef>Peaceful</kindDef>
                 <commonality>40</commonality>
                 <options>
-                    <ESCP_Pawnkind_MagesGuild_Apprentice>2</ESCP_Pawnkind_MagesGuild_Apprentice>
-                    <ESCP_Pawnkind_MagesGuild_Wizard>1</ESCP_Pawnkind_MagesGuild_Wizard>
+                    <ESCP_Pawnkind_College_Apprentice>2</ESCP_Pawnkind_College_Apprentice>
+                    <ESCP_Pawnkind_College_Adept>1</ESCP_Pawnkind_College_Adept>
                 </options>
             </li>
 
@@ -67,10 +68,10 @@
                 <kindDef>Trader</kindDef>
                 <commonality>60</commonality>
                 <options>
-                    <ESCP_Pawnkind_MagesGuild_Apprentice>1</ESCP_Pawnkind_MagesGuild_Apprentice>
+                    <ESCP_Pawnkind_College_Apprentice>1</ESCP_Pawnkind_College_Apprentice>
                 </options>
                 <traders>
-                    <ESCP_Pawnkind_MagesGuild_Arcanist>1</ESCP_Pawnkind_MagesGuild_Arcanist>
+                    <ESCP_Pawnkind_College_Enchanter>1</ESCP_Pawnkind_College_Enchanter>
                 </traders>
                 <carriers>
                     <Muffalo>4</Muffalo>

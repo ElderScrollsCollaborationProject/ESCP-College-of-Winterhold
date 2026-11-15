@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_WinterholdUrchin_Child</defName>
+        <identifier>ESCP_Backstory_College_WinterholdUrchin_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Winterhold urchin</title>
+        <titleShort>urchin</titleShort>
+        <description>[PAWN_nameDef] grew up in Winterhold, in the shadow of the College bridge. [PAWN_pronoun] carried firewood up to the mages for a few coins and one day set a pile of it alight without touching it.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_FishersChild_Child</defName>
+        <identifier>ESCP_Backstory_College_FishersChild_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Sea of Ghosts fisher</title>
+        <titleShort>fisher</titleShort>
+        <description>[PAWN_nameDef] fished the Sea of Ghosts with [PAWN_possessive] family until the ice that froze around the boat started answering [PAWN_possessive] temper. The village sent [PAWN_objective] north to the College before [PAWN_pronoun] sank someone.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Cooking>1</Cooking>
+            <Animals>1</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_TutoredChild_Child</defName>
+        <identifier>ESCP_Backstory_College_TutoredChild_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tutored noble</title>
+        <titleShort>noble</titleShort>
+        <description>[PAWN_nameDef] was raised in a jarl's court by a hired court wizard who taught [PAWN_objective] letters, history and a few cantrips. [PAWN_pronoun] was the only one in the family who paid attention to the cantrips.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_Apprentice_Adult</defName>
+        <identifier>ESCP_Backstory_College_Apprentice_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>College apprentice</title>
+        <titleShort>apprentice</titleShort>
+        <description>[PAWN_nameDef] crossed the bridge to the College and passed the entrance test on the first try. [PAWN_pronoun] spends most days in lectures and the rest in the Arcanaeum, trying not to annoy the librarian.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Artistic>2</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Mage</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_Adept_Adult</defName>
+        <identifier>ESCP_Backstory_College_Adept_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>College adept</title>
+        <titleShort>adept</titleShort>
+        <description>[PAWN_nameDef] has a room in the Hall of Attainment and a specialty [PAWN_pronoun] is still deciding on. [PAWN_pronoun] tutors new apprentices for extra coin and studies Alteration late into the night.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Medicine>2</Medicine>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Mage</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_Conjurer_Adult</defName>
+        <identifier>ESCP_Backstory_College_Conjurer_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>College conjurer</title>
+        <titleShort>conjurer</titleShort>
+        <description>[PAWN_nameDef] studies Conjuration and keeps a familiar that follows [PAWN_objective] around the halls. The other mages wish [PAWN_pronoun] would stop summoning it indoors.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Animals>3</Animals>
+        </skillGains>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Mage</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_Battlemage_Adult</defName>
+        <identifier>ESCP_Backstory_College_Battlemage_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>College battlemage</title>
+        <titleShort>battlemage</titleShort>
+        <description>[PAWN_nameDef] learned Destruction at the College and took it into the field, hiring out to jarls and caravans. [PAWN_pronoun] came back to Winterhold with burn scars and a lot of practical opinions about ward spells.</description>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Mage</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_Enchanter_Adult</defName>
+        <identifier>ESCP_Backstory_College_Enchanter_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>College enchanter</title>
+        <titleShort>enchanter</titleShort>
+        <description>[PAWN_nameDef] works at the arcane enchanter in the Hall of Countenance, binding soul gems to anything that holds still. Half of the College's gold comes from selling [PAWN_possessive] work in Whiterun and Solitude.</description>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Mage</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_College_Scribe_Adult</defName>
+        <identifier>ESCP_Backstory_College_Scribe_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Arcanaeum scribe</title>
+        <titleShort>scribe</titleShort>
+        <description>[PAWN_nameDef] copies and repairs the College's older books, some of them older than the Empire. [PAWN_pronoun] knows where every volume is shelved and will tell you, if you return the last one you borrowed.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_College_Mage</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+</Defs>

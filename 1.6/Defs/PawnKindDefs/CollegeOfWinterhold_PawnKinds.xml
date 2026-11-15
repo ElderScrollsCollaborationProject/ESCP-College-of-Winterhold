@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_CollegekindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>ESCP_Faction_CollegeOfWinterhold</defaultFactionDef>
+        <useFactionXenotypes>true</useFactionXenotypes>
+        <maxGenerationAge>70</maxGenerationAge>
+        <minGenerationAge>18</minGenerationAge>
+        <chemicalAddictionChance>0.02</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_College_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_College_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_CollegekindBase">
+        <defName>ESCP_Pawnkind_College_Apprentice</defName>
+        <label>College apprentice</label>
+        <combatPower>35</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <weaponMoney>100~350</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+        </weaponTags>
+        <apparelMoney>250~550</apparelMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>6~12</initialResistanceRange>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Firebolt</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_Healing</li>
+                    <li>ESCP_Spell_Ward</li>
+                </randomSpells>
+                <randomCount>1~1</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_CollegekindBase">
+        <defName>ESCP_Pawnkind_College_Adept</defName>
+        <label>College adept</label>
+        <combatPower>55</combatPower>
+        <minGenerationAge>22</minGenerationAge>
+        <itemQuality>Good</itemQuality>
+        <weaponMoney>200~500</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+        </weaponTags>
+        <apparelMoney>500~1000</apparelMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>8~16</initialResistanceRange>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_Firebolt</li>
+                    <li>ESCP_Spell_Healing</li>
+                    <li>ESCP_Spell_Oakflesh</li>
+                </randomSpells>
+                <randomCount>1~1</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_CollegekindBase">
+        <defName>ESCP_Pawnkind_College_Expert</defName>
+        <label>College expert</label>
+        <combatPower>80</combatPower>
+        <minGenerationAge>30</minGenerationAge>
+        <itemQuality>Good</itemQuality>
+        <weaponMoney>300~700</weaponMoney>
+        <weaponTags>
+            <li>GoodMelee</li>
+        </weaponTags>
+        <apparelMoney>800~1500</apparelMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>4~8</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Fireball</li>
+                    <li>ESCP_Spell_ConjureWolf</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_Paralyze</li>
+                    <li>ESCP_Spell_Fear</li>
+                    <li>ESCP_Spell_SoulTrap</li>
+                </randomSpells>
+                <randomCount>1~1</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_CollegekindBase">
+        <defName>ESCP_Pawnkind_College_MasterWizard</defName>
+        <label>master wizard</label>
+        <combatPower>110</combatPower>
+        <minGenerationAge>40</minGenerationAge>
+        <itemQuality>Excellent</itemQuality>
+        <weaponMoney>400~900</weaponMoney>
+        <weaponTags>
+            <li>GoodMelee</li>
+        </weaponTags>
+        <apparelMoney>1200~2000</apparelMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>6~10</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Fireball</li>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Paralyze</li>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_ConjureSpider</li>
+                    <li>ESCP_Spell_Invisibility</li>
+                    <li>ESCP_Spell_Telekinesis</li>
+                </randomSpells>
+                <randomCount>2~2</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_CollegekindBase">
+        <defName>ESCP_Pawnkind_College_Enchanter</defName>
+        <label>College enchanter</label>
+        <combatPower>40</combatPower>
+        <minGenerationAge>25</minGenerationAge>
+        <trader>true</trader>
+        <itemQuality>Normal</itemQuality>
+        <weaponMoney>150~350</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+        </weaponTags>
+        <apparelMoney>400~800</apparelMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>6~12</initialResistanceRange>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Ward</li>
+                    <li>ESCP_Spell_Telekinesis</li>
+                    <li>ESCP_Spell_SoulTrap</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Firebolt</li>
+                </randomSpells>
+                <randomCount>1~1</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+</Defs>
